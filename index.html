@@ -15,7 +15,17 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
     <template>
-  <flipbook class="flipbook" :pages="['array', 'of', 'image', 'URLs']"></flipbook>
-</template>
+      <flipbook class="flipbook" :pages="[
+        images/1.jpg,
+        images/2.jpg,
+        images/3.jpg
+        ]"></flipbook>
+    </template>
+    <style>
+    .flipbook {
+      width: 90vw;
+      height: 90vh;
+    }
+  </style>
   </body>
 </html>
